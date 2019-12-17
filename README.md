@@ -1,6 +1,6 @@
 # AnnotateBAMStatistics
 
-This repository contains the code of AnnotateBAMStatistics. AnnotateBAMStatistics is a multi-threaded algorithm for further annotating ANNOVAR out put with useful fragment count statistics for one ore more BAM files. This includes fragment coverage, number of mutant fragments, fragment-based variant allele frequency and mutant read bias for high quality and all fragments separately.
+This repository contains the code of AnnotateBAMStatistics. AnnotateBAMStatistics is a multi-threaded algorithm for annotating ANNOVAR output with additional useful fragment count statistics for one ore more specified BAM files. This includes fragment coverage, number of mutant fragments, fragment-based variant allele frequency and mutant read bias for high quality and all fragments separately.
 
 ## How do I run it?
 
