@@ -28,6 +28,11 @@ do
 		shift
 		shift
 		;;
+		-h|--help)
+			echo "Usage: runScript.sh -a ANNOVAR-file -b COMMA-SEPARATED-LIST-OF-BAM-files -t threads [-m minimum-alignment-score] [-h (help)]
+			exit 0
+		shift
+		;;
 	esac
 done
 set -- "${POSITIONAL[@]}"
